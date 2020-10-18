@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+div.title {
+  width: 100%;
+  background: rgb(136, 89, 158);
+  color: rgb(248, 245, 250);
+  padding: 10px 0;
+}
+
+.winningColor {
+  display: block;
+  font-size: 40px;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-align: center;
+  width: 510px;
+  margin: auto;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+div.buttons {
+  background: rgb(190, 175, 196);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  min-width: 510px;
+}
+
+button {
+  background: inherit;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  color: rgb(136, 89, 158);
+  font-weight: 600;
+  outline: none;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: rgb(136, 89, 158);
+  color: rgb(248, 245, 250);
+}
+
+/*color boxs section*/
+.colorBoxs {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 510px;
+}
+.colorBoxs div {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  background: pink;
+  margin: 10px;
+}
+
+/*JS style */
+.selected {
+  background-color: rgb(136, 89, 158);
+  color: #FFF
+}
